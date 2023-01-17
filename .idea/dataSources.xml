@@ -58,16 +58,15 @@
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@192.168.1.79:1521:XE</jdbc-url>
+      <jdbc-url>jdbc:oracle:thin:@34.125.64.68:1521:XE</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="RRHH" uuid="298451e8-25c1-46ea-88e9-2551e179d1af">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
-      <configured-by-url>true</configured-by-url>
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@192.168.1.79:1521/RRHH</jdbc-url>
+      <jdbc-url>jdbc:oracle:thin:@//34.125.64.68/RRHH</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="OGCRRHH" uuid="b5a0db7a-511e-459f-83a9-309f68e3c637">
@@ -83,7 +82,7 @@
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@//34.125.149.95:1521/RRHHBDOO</jdbc-url>
+      <jdbc-url>jdbc:oracle:thin:@//34.125.64.68:1521/RRHHBDOR</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="RRHHBDORPROD" uuid="6b5449e5-f8e3-43ba-899b-6d1d4debde52">
@@ -91,7 +90,7 @@
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@//34.125.149.95:1521/RRHHBDORPROD</jdbc-url>
+      <jdbc-url>jdbc:oracle:thin:@//34.125.64.68:1521/RRHHBDORPROD</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="RRHHBDORDES" uuid="421b9f4f-f87e-4ccf-b6e2-95d6059a9a57">
@@ -99,7 +98,23 @@
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@//34.125.149.95:1521/RRHHBDORDES</jdbc-url>
+      <jdbc-url>jdbc:oracle:thin:@//34.125.64.68:1521/RRHHBDORDES</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="OracleSYSTEM [2]" uuid="b86c663f-59fe-442b-a6c2-384be99ccb83">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//192.168.1.49:1521/XEPDB1</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="OracleSYSTEM [3]" uuid="66c5e7d9-3087-4487-b842-f620f5443417">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@34.125.133.27:1521:XE</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
